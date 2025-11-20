@@ -122,16 +122,14 @@ Global-solution/
 
 | Nome | RM | Turma | LinkedIn | GitHub |
 |------|-----|-------|----------|--------|
-| Ana Paula Silva | 123456 | 1TDSPF | [LinkedIn](#) | [GitHub](#) |
-| Carlos Eduardo Santos | 234567 | 1TDSPF | [LinkedIn](#) | [GitHub](#) |
-| Mariana Costa Oliveira | 345678 | 1TDSPF | [LinkedIn](#) | [GitHub](#) |
-| Rafael Almeida Ferreira | 456789 | 1TDSPF | [LinkedIn](#) | [GitHub](#) |
-| Juliana Rodrigues Lima | 567890 | 1TDSPF | [LinkedIn](#) | [GitHub](#) |
+| Carlos Aurelio Tolosa Bianchi | 567897 | 1TDSPS | [LinkedIn](https://www.linkedin.com/in/carlos-bianchi-6608a3272/) | [GitHub](https://github.com/Carlos-Bianchi) |
+| Vinicius Morrone Lustosa | 566884 | 1TDSPS | [LinkedIn](https://www.linkedin.com/in/vinícius-morrone-lustosa/) | [GitHub](https://github.com/viniciusmorrone) |
+| Caio Vinícius Silva Araujo | 567610 | 1TDSPS | [LinkedIn](https://www.linkedin.com/in/caio-araujo-dev/) | [GitHub](https://github.com/caioaraujo) |
 
-## 🔗 Links do Projeto
+## 🔗 Link do Projeto
 
-- **GitHub**: [Adicionar URL do repositório]
-- **Deploy**: [Adicionar URL do deploy]
+- **GitHub**: https://github.com/Carlos-Bianchi/Global-solution
+
 
 ## 📦 Como Executar o Projeto
 
@@ -206,11 +204,3 @@ http://localhost:8000
 ## 📝 Licença
 
 Este projeto foi desenvolvido para fins educacionais como parte de um trabalho universitário.
-
-## 🤝 Contribuições
-
-Este é um projeto acadêmico. Para sugestões ou melhorias, entre em contato através da página de contato do site.
-
----
-
-**Desenvolvido com ❤️ para acessibilidade**
