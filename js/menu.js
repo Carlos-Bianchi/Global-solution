@@ -49,6 +49,19 @@ function initializeMenu() {
         });
     });
     
+    // Fechar menu ao clicar fora (mobile)
+    document.addEventListener('click', function(e) {
+        // Verificar se o menu está aberto e se o clique foi fora do menu e do botão
+        if (nav.classList.contains('active') && 
+            !nav.contains(e.target) && 
+            !menuToggle.contains(e.target)) {
+            nav.classList.remove('active');
+            const icon = menuToggle.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+    });
+    
     // Fechar menu ao redimensionar para desktop
     window.addEventListener('resize', function() {
         if (window.innerWidth > 480 && nav.classList.contains('active')) {

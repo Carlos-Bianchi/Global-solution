@@ -25,8 +25,8 @@ Global-solution/
 ├── integrantes.html        # Equipe do projeto
 ├── faq.html                # Perguntas frequentes
 ├── contato.html            # Formulário de contato
-├── app-gravacao.html       # Interface de gravação de áudio
-├── app-resposta.html       # Interface de resposta da IA
+├── app-chat.html           # Interface de chat com múltiplas conversas
+├── app-favoritas.html      # Interface de mensagens favoritas
 │
 ├── components/             # Componentes reutilizáveis
 │   ├── header.html         # Header do site
@@ -39,7 +39,9 @@ Global-solution/
 │   ├── components-data.js  # Dados dos componentes (HTML)
 │   ├── components.js       # Carregamento de componentes
 │   ├── script.js           # Lógica principal da aplicação
-│   └── menu.js             # Lógica do menu responsivo
+│   ├── menu.js             # Lógica do menu responsivo
+│   ├── chat.js             # Lógica do sistema de chat
+│   └── favoritas.js        # Lógica das mensagens favoritas
 │
 ├── assets/                 # Pasta para imagens e ícones
 │
@@ -79,17 +81,29 @@ Global-solution/
 - Animação suave de abertura/fechamento
 - Ícone rotativo para indicar estado
 
-### 4. Simulação do App de Gravação
-- Botão de microfone pulsante com animação CSS
-- Mudança de estado visual ao gravar (vermelho)
-- Feedback visual claro do estado de gravação
-- Redirecionamento automático após envio
+### 4. Interface de Chat com Múltiplas Conversas
+- Sistema completo de chat com histórico persistente
+- Gerenciamento de múltiplas conversas simultâneas
+- Sidebar com lista de conversas (responsiva)
+- Mensagens em formato de bolhas (usuário e IA)
+- Players de áudio integrados em cada mensagem
+- Indicador de "digitando" quando IA está processando
+- Armazenamento local (localStorage) para persistência
+- Criação, seleção e exclusão de conversas
+- Conversas de exemplo pré-carregadas
+- Interface totalmente responsiva com toggle de sidebar no mobile
+- Botão de favoritar mensagens para salvá-las
+- Notificações visuais ao adicionar/remover favoritos
 
-### 5. Simulação do App de Resposta
-- Visualizador de áudio com barras animadas
-- Botão de play/pause funcional
-- Botões de feedback (like/dislike)
-- Animações sincronizadas com reprodução
+### 5. Sistema de Mensagens Favoritas
+- Página dedicada para visualizar mensagens salvas
+- Cards organizados em grid responsivo
+- Identificação visual de mensagens do usuário e da IA
+- Players de áudio integrados em cada mensagem favorita
+- Informação da conversa de origem
+- Remoção de favoritos com confirmação
+- Armazenamento persistente em localStorage
+- Estado vazio com call-to-action para o chat
 
 ## 🎯 Páginas do Projeto
 
@@ -101,8 +115,8 @@ Global-solution/
 5. **contato.html** - Formulário de contato com validação
 
 ### Páginas da Solução
-1. **app-gravacao.html** - Interface para gravar perguntas por áudio
-2. **app-resposta.html** - Interface para ouvir respostas da IA
+1. **app-chat.html** - Interface de chat com múltiplas conversas e histórico
+2. **app-favoritas.html** - Interface para visualizar e gerenciar mensagens favoritas
 
 ## 👥 Integrantes do Projeto
 

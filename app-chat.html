@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chat com IA para orientação de carreira - Futuro em Voz">
+    <title>Chat - Futuro em Voz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header será carregado aqui -->
+    <div id="header-placeholder"></div>
+
+    <main class="chat-page">
+        <!-- Botão para abrir sidebar no mobile -->
+        <button class="chat-sidebar-toggle" aria-label="Abrir lista de conversas">
+            <i class="fas fa-comments"></i>
+        </button>
+
+        <div class="chat-container">
+            <!-- Sidebar com lista de conversas -->
+            <aside class="chat-sidebar">
+                <div class="chat-sidebar-header">
+                    <h2><i class="fas fa-comments"></i> Conversas</h2>
+                    <button class="btn-new-conversation" aria-label="Nova conversa">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                
+                <div class="conversations-list" id="conversations-list">
+                    <!-- Conversas serão carregadas aqui via JavaScript -->
+                </div>
+            </aside>
+
+            <!-- Área principal do chat -->
+            <div class="chat-main">
+                <!-- Estado vazio (quando não há conversa selecionada) -->
+                <div class="chat-empty-state" id="empty-state">
+                    <i class="fas fa-comments"></i>
+                    <h2>Bem-vindo ao Chat!</h2>
+                    <p>Selecione uma conversa ou crie uma nova para começar</p>
+                    <button class="btn btn-primary btn-large btn-new-conversation-main">
+                        <i class="fas fa-plus"></i> Nova Conversa
+                    </button>
+                </div>
+
+                <!-- Área de mensagens -->
+                <div class="chat-messages-container" id="messages-container" style="display: none;">
+                    <div class="chat-messages" id="chat-messages">
+                        <!-- Mensagens serão carregadas aqui via JavaScript -->
+                    </div>
+
+                    <!-- Barra de input -->
+                    <div class="chat-input-area">
+                        <div class="recording-indicator" id="recording-indicator" style="display: none;">
+                            <i class="fas fa-circle"></i>
+                            <span>Gravando...</span>
+                        </div>
+                        
+                        <button class="chat-mic-button" id="chat-mic-button" aria-label="Gravar mensagem de áudio">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                        
+                        <div class="chat-input-hint">
+                            <i class="fas fa-info-circle"></i>
+                            Clique no microfone para gravar sua pergunta
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer será carregado aqui -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/components-data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

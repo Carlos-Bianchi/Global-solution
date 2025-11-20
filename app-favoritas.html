@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mensagens Favoritas - Futuro em Voz">
+    <title>Mensagens Favoritas - Futuro em Voz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header será carregado aqui -->
+    <div id="header-placeholder"></div>
+
+    <main class="favorites-page">
+        <div class="container">
+            <div class="favorites-header">
+                <h1><i class="fas fa-star"></i> Mensagens Favoritas</h1>
+                <p class="favorites-subtitle">Suas mensagens salvas do chat</p>
+            </div>
+
+            <!-- Estado vazio -->
+            <div class="favorites-empty-state" id="favorites-empty-state">
+                <i class="fas fa-star"></i>
+                <h2>Nenhuma mensagem favorita ainda</h2>
+                <p>Salve mensagens importantes do chat clicando no ícone de estrela</p>
+            </div>
+
+            <!-- Lista de mensagens favoritas -->
+            <div class="favorites-grid" id="favorites-grid" style="display: none;">
+                <!-- Mensagens favoritas serão carregadas aqui via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer será carregado aqui -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/components-data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/favoritas.js"></script>
+</body>
+</html>
